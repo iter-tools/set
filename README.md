@@ -14,6 +14,8 @@ const Set = require('@iter-tools/set'); // OR
 import Set from '@iter-tools/set';
 ```
 
+Until Typescript supports [package exports](https://github.com/microsoft/TypeScript/issues/33079) you must enable `esModuleInterop` to use this module.
+
 ## Rationale
 
 `@iter-tools/set` adds two key pieces of functionality to the `Set` builtin:
