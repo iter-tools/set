@@ -1,3 +1,5 @@
+/// <reference lib="es6" />
+
 declare class Set<T> {
   /**
    * Returns true if `inst` is a `Set`.
@@ -19,7 +21,7 @@ declare class Set<T> {
 
   delete(value: T): void;
 
-  forEach(cb: (value: T, key: T, set: Set) => any): void;
+  forEach(cb: (value: T, key: T, set: Set<T>) => any): void;
 
   keys(): IterableIterator<T>;
 
@@ -30,4 +32,4 @@ declare class Set<T> {
   [Symbol.iterator](): IterableIterator<T>;
 }
 
-export = Set;
+export default Set;
