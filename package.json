@@ -1,6 +1,6 @@
 {
   "name": "@iter-tools/set",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An es6-style iterable Set",
   "main": "lib/set.cjs",
   "module": "lib/set.mjs",
